@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    img {
+        width: 50px;
+    }
+}
+
+.menu-container {
+    background-color: orange;
+    font-family: "Cherry cream soda", system-ui;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.desktop-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desktop-menu .desktop-menu-logo img{
+    width: 10rem;
+}
+
+.desktop-menu .desktop-menu-pages {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.25rem;
+}
+
+.desktop-menu .desktop-menu-pages a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.desktop-menu .desktop-menu-search form {
+    display: flex;
+}
+
+.desktop-menu .desktop-menu-search form input{
+    font-size: 1.5rem;
+}
+
