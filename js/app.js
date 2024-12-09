@@ -156,8 +156,17 @@ const createShowCard = function(show) {
   return showCard
 }
 
+
+let darkModeStorage = localStorage.getItem('darkmode')
 const darkMode = document.querySelector('.switch-mode')
 
 darkMode.addEventListener('click', () => {
   container.classList.toggle('dark-mode')
+})
+
+const hamMenu = document.querySelector('.hamburger-menu')
+const offMenu = document.querySelector('.offscreen-menu')
+
+hamMenu.addEventListener('click', () => {
+  offMenu.classList.toggle('active')
 })
