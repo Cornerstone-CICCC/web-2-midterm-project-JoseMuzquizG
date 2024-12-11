@@ -2,14 +2,14 @@
     --main-color: #FF8E00;
     --secondary-color: #FFE4C4;
     --text-color: black;
-    --switch-color: #41577b;
+    --switch-color: #11224D;
     --offscreen:#c79557e4;
     --icon: white;
 }
 
 .dark-mode {
     --main-color: #11224D;
-    --secondary-color: #41577b;
+    --secondary-color: #2e3138;
     --text-color: white;
     --switch-color: #FFE4C4;
     --variant-color:black;
