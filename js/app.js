@@ -216,9 +216,12 @@ search.forEach((form) => {
         `https://api.themoviedb.org/3/search/multi?query=${media}&include_adult=false&language=en-US&page=1&api_key=${apiKey}`
       )
       const data = await res.json()
-      console.log(data.results)
+      // console.log(data.results)
+      // console.log(data)
 
-      if (!data.results == []) {
+
+      if (data.results.length == 0) {
+        console.log(data)
         window.location.href = './nomatch.html'
       }
 
